@@ -120,7 +120,6 @@ function renderList() {
             popupImageContainer.classList.add("popup__image_opened");
             popupImageImage.addEventListener("click", function popupImageOpenBig() {
                 let screenWidth = screen.availWidth;
-                console.log(screenWidth);
                 if (screenWidth >= 900) {
                     popupImageClose();
                     popupImageLargeImage.setAttribute("style", "background-image: url(" + placeImageArray[i].src + ")");
